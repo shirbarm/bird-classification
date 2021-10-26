@@ -1,5 +1,5 @@
 # bird-classification
-# Model 1 - Fully Connected:
+# Model 1 - Fully Connected
 In this network each neuron in one layer is connected to all the neurons in the next layer.
 
 # Model 2 - Convolutional Neural Network
