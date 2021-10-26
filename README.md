@@ -1,20 +1,15 @@
 # bird-classification
-# fully_connection:
-זה הקובץ שבו אנחנו חותכות את ההקלטות (כל הקלטה לפי האמצע, אם היא ארוכה או קצרה).
-לאחר מכן במתודה mel_spec
-זאת המתודה שבה עוברים על כל קובץ, שומרים את התווית ואת הספקטוגרמה ומשרשרים.
-בסוף הפונקציה הזאת נוצר דאטא-פריים שבו יש את כל המידע הדרוש.
-עשיתי הדפסה של זה וזה נראה בסדר.
+# Model 1 - Fully Connected:
+In this network each neuron in one layer is connected to all the neurons in the next layer.
 
-# הגודל של train:
-479 קבצים, כל ספקטוגרמה בגודל 21X35.
+# Model 2 - Convolutional Neural Network
+CNN is a type of neural network used primarily for artificial image analysis.
+Our convolution network uses convolution layers and pooling layers. 
 
-# הגודל של test:
-201 קבצים, כל ספקטוגרמה בגודל 26X35
+# Train Set
+479 files
 
-# MFB
-בקובץ הזה יש את הבאג.
-אני רוצה לעבור על הדאטא-פריים, להוציא ממנו לתוך מטריצה את כל הספקטוגרמות.
-עבור האימון זה עובד!
+# Test Set
+201 files
 
-עבור הטסט, בשורה 25 נזרקת חריגה.
+
