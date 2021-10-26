@@ -11,5 +11,3 @@ Our convolution network uses convolution layers and pooling layers.
 
 # Test Set
 201 files
-
-
